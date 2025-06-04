@@ -1,0 +1,94 @@
+h1 {
+  color: rgb(216, 65, 65);
+}
+
+img:first-of-type {
+  box-shadow: 15px 15px #00000086;
+
+}
+
+@font-face {
+  font-family: mkFont;
+  src: url(mortalkombat2.ttf);
+
+
+}
+
+div {
+  font-family: mkFont;
+  color: gold;
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 20px;
+  margin: 20px;
+}
+
+#mainPage {
+  background-image: url(img/skulls.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+
+.myDiv {
+  border: 5px outset rgb(72, 40, 90);
+  background-color: rgb(67, 54, 187);
+  text-align: center;
+}
+
+a:link {
+  color: gold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(163, 124, 26);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#myBtn {
+  font-family: mkFont;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: -100%;
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(72, 40, 90); /* Set a background color */
+  color: gold; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  animation: smooth-appear .5s ease forwards;
+  
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+@keyframes smooth-appear {
+  to{
+    bottom: 20px;
+    opacity:1;
+  }
+  
+}
+@keyframes smooth-disappear {
+  to{
+    bottom: 0px;
+    opacity:1;
+  }
+}
+iframe{
+  align-self: center;
+}
