@@ -1,23 +1,19 @@
-import './globals.css'
+import Link from "next/link";
+import "./globals.css";
 
-export default function App() {
+export default function HomePage() {
   return (
     <html>
       <body>
         <div className="wrapper">
-          <a href="">
-            <img src="./placeholder.png" alt="test" width={250} height={250}></img>
-          </a>
+          <Link href="/album1" title="To Pimp A Butterfly">
+            <img src="/tpab.png" className="albumcover"></img>
+          </Link>
         </div>
         <div className="wrapper">
-          <a href="">
-            <img src="./placeholder.png" alt="test" width={250} height={250}></img>
-          </a>
-        </div>
-        <div className="wrapper">
-          <a href="">
-            <img src="./placeholder.png" alt="test" width={250} height={250}></img>
-          </a>
+          <Link href="/album2" title="CALL ME IF YOU GET LOST">
+            <img src="/cmiygl.jpg" className="albumcover"></img>
+          </Link>
         </div>
       </body>
     </html>
