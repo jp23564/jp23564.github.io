@@ -135,6 +135,8 @@ export default function Album2() {
                     }}
                     src={track.src}
                   />
+                  {/* Baixar Músicas */}
+                  <a href={track.src} title='Baixar Música' download><img className='downloadbutton' width='15px' height='15px' src='download.png'></img></a>
                 </div>
 
                 {/* Barra de progresso */}

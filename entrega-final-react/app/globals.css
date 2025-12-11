@@ -1,5 +1,4 @@
-body
-{
+body {
     align-items: center;
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,7 +23,24 @@ body
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
 }
+
 .backbutton:hover {
+    background-color: #8d64ce83;
+}
+
+.downloadbutton {
+    display: flex;
+    background-color: #8d64ce63;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.downloadbutton:hover {
     background-color: #8d64ce83;
 }
 
@@ -35,7 +51,7 @@ body
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     margin-bottom: 1.5rem;
     border: 4px solid;
-    border-color:#8d64ce63
+    border-color: #8d64ce63
 }
 
 .albuminfo {
@@ -56,4 +72,19 @@ body
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     text-align: center;
     margin: auto;
+}
+
+.inputfield {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    min-width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: auto;
+    transition: background-color 0.3s ease;
+}
+
+.inputfield:focus {
+    background-color: rgba(108, 128, 226, 0.092);
 }

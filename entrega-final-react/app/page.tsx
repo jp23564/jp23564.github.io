@@ -5,6 +5,9 @@ export default function HomePage() {
   return (
     <html>
       <body>
+        <div className="backbutton">
+          <Link href="/easteregg" title='?'>?</Link>
+        </div>
         <div className="wrapper">
           <Link href="/album1" title="To Pimp A Butterfly">
             <img src="/tpab.png" className="albumcover"></img>
@@ -15,6 +18,11 @@ export default function HomePage() {
             <img src="/cmiygl.jpg" className="albumcover"></img>
           </Link>
         </div>
+        {/*         <div className='wrapper'>
+          <Link href='album3' title='?'>
+            test
+          </Link>
+        </div> */}
       </body>
     </html>
   );
