@@ -18,11 +18,6 @@ export default function HomePage() {
             <img src="/cmiygl.jpg" className="albumcover"></img>
           </Link>
         </div>
-        {/*         <div className='wrapper'>
-          <Link href='album3' title='?'>
-            test
-          </Link>
-        </div> */}
       </body>
     </html>
   );
